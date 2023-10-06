@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de Envio - Ejercicio 1</title>
+</head>
+
+<body>
+    <form id="miFormulario1">
+        <input type="text" id="nombre1" placeholder="Nombre">
+        <input type="email" id="correo1" placeholder="Correo Electronico">
+        <button type="submit"> Enviar (Ejercicio 1)</button>
+    </form>
+
+    <script>
+        const formulario1 = document.getElementById("miFormulario1");
+
+        formulario1.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const nombre1 = document.getElementById("nombre1").value;
+            const correo1 = document.getElementById("correo1").value;
+
+            if (nombre1 === "" || correo1 === "") {
+                alert("PorFavor , Completa todos los campos.");
+            } else {
+                alert("Formulario enviado con exito(Ejercicio1).");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
