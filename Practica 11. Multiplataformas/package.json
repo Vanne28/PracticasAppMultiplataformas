@@ -1,0 +1,14 @@
+{
+  "name": "practica_11",
+  "version": "1.0.0",
+  "description": "Aplicacion de Sorteo Multiplataforma",
+  "main": "main.js",
+  "scripts": {
+    "start": " electron . "
+  },
+  "author": "Vanessa",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.2"
+  }
+}
