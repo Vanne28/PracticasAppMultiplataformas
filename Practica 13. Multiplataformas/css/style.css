@@ -1,0 +1,67 @@
+/*estilo general del cuerpo de la pagina*/
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/*Estilo de color para titulos, parrafos y etiquetas*/
+h1,
+p,
+label{
+    color: white;
+}
+
+/*Estilos para el contenedor principal de los controles*/
+#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*Estilos para el control deslixante de volumen*/
+input[type="range"]{
+    width: 100px;
+}
+
+
+/*Estilos para la terjeta del reproductor de musica*/
+.card {
+width: 450px;
+height: 650px;
+}
+
+/*Estilos para la imagen de la caratula del album*/
+.img {
+    width: 100%; ;
+    height: 350px;
+}
+
+/*Estilos para el contenedor principal de la pagina*/
+.container {
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+
+/*estilos para el contenedor del control del volumen*/
+#volume-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*estilos para la etiqueta del control de volumen*/
+#colume-container label{
+    font-weight: bold;
+    color: white;
+}
+
+/*estilos para el  control de volumen*/
+#volume {
+    width: 100%;
+    height: 20px;
+    border: none;
+    background: #333;
+    border-radius: 5px;
+    outline: none;
+}
